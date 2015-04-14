@@ -1,0 +1,14 @@
+## Discovery: 
+tmux
+pyenv
+pip
+shell
+git
+  github
+  	where theproject's code lives: https://github.com/DevOpsing/workshop00
+
+## Challenges:
+ * Create 9 jails with hostnames like host<NN> where NN is a value 00 - 08
+ * Create student00 user on each host
+ * Push ssh keys
+ * Create hosts file on each machine (including localhost)

@@ -1,0 +1,10 @@
+from fabric.api import *
+
+def simple_hello():
+    print("Hello")
+
+def variable_hello(name="Joe"):
+    print("Hello %s" % name)
+
+def where_am_i():
+    run("pwd")

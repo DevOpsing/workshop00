@@ -1,14 +1,25 @@
 ## Discovery: 
-tmux
-pyenv
-pip
-shell
-git
-  github
-  	where theproject's code lives: https://github.com/DevOpsing/workshop00
+- tmux
+- pyenv
+- pip
+- shell
+- git: 
+  - github
+    - where theproject's code lives: https://github.com/DevOpsing/workshop00
 
-## Challenges:
- * Create 9 jails with hostnames like host<NN> where NN is a value 00 - 08
+## Work covered:
+
+ * Create 9 jails with hostnames like jail<NN> where NN is a value 00 - 08
  * Create student00 user on each host
- * Push ssh keys
- * Create hosts file on each machine (including localhost)
+ * Create hosts file on each vhost (including localhost)
+ * Create hosts file on each vhost (including localhost)
+
+
+
+## Bonus Challenges:
+
+ * make one jail and clone it (using fabric)
+ * figure out how to move past errors in execution tasks
+ * find out what autostart does
+ * find out how to turn it on/off (using fabric)
+ * put together a meta command that combines all of the tasks in order

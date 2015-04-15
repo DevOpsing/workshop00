@@ -1,0 +1,9 @@
+order of operations: 
+ 1. make_jails
+ 2. start_jails
+ 3. provision_jails
+ 4. provision_sudo
+ 5. fix_sudoers
+
+we'll start from this point with the next video
+

@@ -50,7 +50,7 @@ def start_jails():
 
 def install_packages(jailname):
     env.shell="/usr/local/bin/warden chroot %s" % jailname
-    packages = ['sudo', 'zsh', 'ksh93', 'python', 'databases/py-bsddb',
+    packages = ['sudo', 'bash', 'zsh', 'ksh93', 'python', 'databases/py-bsddb',
                 'databases/py-gdbm', 'databases/py-sqlite3']
     sudo("pkg install -y %s" % ' '.join(packages))
 

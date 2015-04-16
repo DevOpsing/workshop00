@@ -1,0 +1,6 @@
+salt-ssh:
+  config_dir: ./config
+  max_procs: 30
+  wipe_ssh: True
+  user: student00
+  root_dir: /home/student00/prog/workshop00/phase2/salt

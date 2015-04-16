@@ -1,0 +1,8 @@
+* Generate SSH key
+* push ssh-key to hosts
+* Run in parallel 
+* make ansible hosts file and ping hosts and run modules
+* install salt
+* make salt roster file and ping hosts and  run modules
+install ansible
+

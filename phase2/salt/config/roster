@@ -1,0 +1,50 @@
+jail00:
+  host: jail00
+  user: student00
+  sudo : True
+
+jail01:
+  host: jail01
+  user: student00
+  sudo : True
+
+jail02:
+  host: jail02
+  user: student00
+  sudo : True
+
+jail03:
+  host: jail03
+  user: student00
+  sudo : True
+
+jail04:
+  host: jail04
+  user: student00
+  sudo : True
+
+jail05:
+  host: jail05
+  user: student00
+  sudo : True
+
+jail06:
+  host: jail06
+  user: student00
+  sudo : True
+
+jail07:
+  host: jail07
+  user: student00
+  sudo : True
+
+jail08:
+  host: jail08
+  user: student00
+  sudo : True
+
+jail09:
+  host: jail09
+  user: student00
+  sudo : True
+

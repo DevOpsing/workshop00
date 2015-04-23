@@ -51,7 +51,7 @@ def start_jails():
 def install_packages(jailname):
     env.shell="/usr/local/bin/warden chroot %s" % jailname
     packages = ['sudo', 'bash', 'zsh', 'ksh93', 'python', 'databases/py-bsddb',
-                'databases/py-gdbm', 'databases/py-sqlite3']
+                'databases/py-gdbm', 'databases/py-sqlite3', 'py27-msgpack']
     sudo("pkg install -y %s" % ' '.join(packages))
 
 def make_jail_user(jailname,username):

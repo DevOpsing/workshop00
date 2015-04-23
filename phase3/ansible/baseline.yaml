@@ -1,0 +1,20 @@
+---
+- hosts: evens
+  sudo: yes 
+  tasks:
+    - pkgng: name=sudo state=present
+    - pkgng: name=bash state=present
+    - pkgng: name=zsh state=present
+    - pkgng: name=ksh93 state=present
+    - pkgng: name=python state=present
+    - pkgng: name=databases/py-bsddb state=present
+    - pkgng: name=databases/py-gdbm state=present
+    - pkgng: name=databases/py-sqlite3 state=present
+    - pkgng: name=py27-msgpack state=present
+    - pkgng: name=py27-salt state=present
+    - pkgng: name=runit state=present
+    - service: name=salt_minion enabled=yes
+    - user: name=foouser shell=/bin/sh
+    - copy: src=files/minion.conf dest=/usr/local/etc/salt/minion owner=root
+    - service: name=salt_minion state=restarted
+

@@ -29,7 +29,10 @@ py-sqlite3:
 py27-msgpack:
   pkg:
     - installed
+mksh:
+  pkg:
+    - installed
 
-foouser:
+foouser2:
   user.present:
     - shell: /bin/sh
